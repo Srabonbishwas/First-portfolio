@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/**===============
+    First Section
+=================**/
+.section-1{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.stay-focused{
+    text-align: justify;
+    margin: 100 150;
+    width: 40%;
+}
+.mission-2022{
+    color: orange;
+}
+.fast-tittle{
+    border-left: 3px solid;
+    border-color: tomato;
+    padding-left: 5px;
+}
+.button-1{
+    background-color: tomato;
+    padding: 5 15;
+    border: none;
+    border-radius: 5px;
+}
+
+.first-img{
+    width: 40%;
+    padding-left: 20px;
+    padding-bottom: 150px;
+}
+.first-img img{
+    width: 80%;
+}
+/**==================
+    2nd Section
+====================**/
+
+/**==================
+    3nd Section
+====================**/
+
+/**==================
+    Footer area
+====================**/
