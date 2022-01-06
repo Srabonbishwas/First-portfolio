@@ -25,6 +25,7 @@ a{
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 5%;
 }
 .stay-focused{
     text-align: justify;
@@ -61,7 +62,7 @@ a{
 }
 .section-2 h1{
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     text-align: center;
 }
 .section-2 h1 span{
@@ -100,7 +101,7 @@ a{
     width: 50%;
 }
 /**==================
-    3nd Section
+    3rd Section
 ====================**/
 .section-3{
     display: flex;
@@ -125,7 +126,7 @@ a{
     width: 55%;
 }
 /**==================
-    4nd Section
+    4th Section
 ====================**/
 
 .section-4{
@@ -150,12 +151,46 @@ a{
     width: 100%;
     border-radius: 20px;
 }
-
+/**======================
+    5th section
+=========================**/
+.section-5{
+    background-image: url(img/123.jpg);
+    margin-top: 5%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.agency-info{
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.last-button{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    padding: 15 40;
+    transition: 0.5s;
+}
+.agency-info h2{
+    color:orange;
+}
+.agency-info h2 span{
+    color: white;
+}
+.last-button:hover {
+    background-color: orange;
+    border-radius: 60px;
+    transition: 0.5s;
+}
 /**==================
     Footer area
 ====================**/
 footer{
-    margin-top: 5%;
     color: white;
     background-color: black;
     text-align: center;
