@@ -1,15 +1,25 @@
 body{
+    font-size: 18px;
     margin: 0;
     padding: 0;
+    font-family: verdana;
 }
 a{
+    font-size: 15px;
     color: white;
     text-decoration: none;
+}
+.button{
+    background-color: tomato;
+    padding: 10 20;
+    border: none;
+    border-radius: 5px;
 }
 /**===============
     First Section
 =================**/
 .section-1{
+    border: 2px solid;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
@@ -27,29 +37,116 @@ a{
     border-color: tomato;
     padding-left: 5px;
 }
-.button-1{
-    background-color: tomato;
-    padding: 5 15;
-    border: none;
-    border-radius: 5px;
-}
-
-.first-img{
+.image-1{
     width: 40%;
     padding-left: 20px;
     padding-bottom: 150px;
 }
-.first-img img{
+.image-1 img{
     width: 80%;
 }
 /**==================
     2nd Section
 ====================**/
-
+.section-2{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid;
+}
+.section-2 h1{
+    text-align: center;
+}
+.boxs{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 15px;
+    display: flex;
+    
+}
+.mission-box{
+    border-radius: 30px;
+    padding: 10 15;
+    width: 30%;
+    margin: 5%;
+    background-color: turquoise;
+}
+.vission-box{
+    border-radius: 30px;
+    padding: 10 15;
+    width: 30%;
+    margin: 5%;
+    background-color: yellowgreen;
+}
+.goals-box{ 
+    border-radius: 30px;
+    padding: 10 15;
+    width: 30%;
+    margin: 5%;
+    background-color: tomato;
+}
+.imgess{
+    width: 50%;
+}
 /**==================
     3nd Section
 ====================**/
+.section-3{
+    border: 2px solid;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.image-2{
+    width: 40%;
+}
+.image-2 img{
+    width: 90%;
+    border-radius: 15px;
+}
+.develop-limits{
+    text-align: justify;
+    padding: 30px 5px;
+    margin-left: 5%;
+    width: 40%;
+}
+/**==================
+    4nd Section
+====================**/
+
+.section-4{
+    border: 2px solid;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+.global-community{
+    padding: 10px;
+    text-align: justify;
+    width: 40%;
+}
+.image-3{
+    width: 40%;
+    margin-left: 10%;
+}
+.image-3 img{
+    width: 90%;
+    border-radius: 15px;
+}
 
 /**==================
     Footer area
 ====================**/
+footer{
+    margin-top: 10%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    padding: 20px;
+}
+.footer span{
+    color: orange;
+}
