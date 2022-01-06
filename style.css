@@ -11,54 +11,65 @@ a{
 }
 .button{
     background-color: tomato;
-    padding: 10 20;
+    padding: 15 40;
     border: none;
     border-radius: 5px;
+}
+.small-paragraph{
+    font-size: 15px;
 }
 /**===============
     First Section
 =================**/
 .section-1{
-    border: 2px solid;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .stay-focused{
     text-align: justify;
-    margin: 100 150;
-    width: 40%;
+    margin-right: 5%;
+    width: 55%;
+    padding: 30px;
 }
 .mission-2022{
     color: orange;
 }
 .fast-tittle{
+    font-family: poppins;
     border-left: 3px solid;
     border-color: tomato;
     padding-left: 5px;
+    font-size: 30;
+    line-height: 30px;
+}
+.stay-focused p{
+    font-size: ;
 }
 .image-1{
     width: 40%;
-    padding-left: 20px;
-    padding-bottom: 150px;
 }
 .image-1 img{
-    width: 80%;
+    width: 100%;
 }
 /**==================
     2nd Section
 ====================**/
 .section-2{
-    margin-left: 5%;
-    margin-right: 5%;
-    border: 2px solid;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .section-2 h1{
+    font-size: 35px;
+    margin-bottom: 50px;
     text-align: center;
+}
+.section-2 h1 span{
+    color: orange;
 }
 .boxs{
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     font-size: 15px;
     display: flex;
     
@@ -67,22 +78,23 @@ a{
     border-radius: 30px;
     padding: 10 15;
     width: 30%;
-    margin: 5%;
-    background-color: turquoise;
+    margin-right: 15px;
+    background-color: lightcyan;
 }
 .vission-box{
     border-radius: 30px;
     padding: 10 15;
     width: 30%;
-    margin: 5%;
-    background-color: yellowgreen;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: mistyrose;
 }
 .goals-box{ 
     border-radius: 30px;
     padding: 10 15;
     width: 30%;
-    margin: 5%;
-    background-color: tomato;
+    margin-left: 15px;
+    background-color: seashell;
 }
 .imgess{
     width: 50%;
@@ -91,58 +103,66 @@ a{
     3nd Section
 ====================**/
 .section-3{
-    border: 2px solid;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .image-2{
     width: 40%;
 }
 .image-2 img{
-    width: 90%;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 20px;
+}
+.develop-limits h2{
+    font-size: 30;
 }
 .develop-limits{
     text-align: justify;
-    padding: 30px 5px;
+    padding: 20px 5px;
     margin-left: 5%;
-    width: 40%;
+    width: 55%;
 }
 /**==================
     4nd Section
 ====================**/
 
 .section-4{
-    border: 2px solid;
     margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
 }
 .global-community{
-    padding: 10px;
+    margin-right: 5%;
     text-align: justify;
-    width: 40%;
+    width: 55%;
+    padding: 15px;
+}
+.global-community h2{
+    font-size: 30;
 }
 .image-3{
     width: 40%;
-    margin-left: 10%;
 }
 .image-3 img{
-    width: 90%;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 /**==================
     Footer area
 ====================**/
 footer{
-    margin-top: 10%;
+    margin-top: 5%;
     color: white;
     background-color: black;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer h1{
+font-family:monospace;
 }
 .footer{
     padding: 20px;
